@@ -1,0 +1,24 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : [ "core", "clipping-nodes", "actions", "labels", "menus"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+
+        "src/Candy.js",
+        "src/GameConfig.js",
+        "src/GameScene.js",
+        "src/GameUI.js",
+        "src/Storage.js"
+    ]
+}
