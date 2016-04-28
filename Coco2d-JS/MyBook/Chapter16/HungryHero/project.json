@@ -1,0 +1,38 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "particle", "ccpool"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+
+        "src/Game.js",
+        "src/GameConstants.js",
+        "src/Sound.js",
+
+        "src/elements/GameBackground.js",
+        "src/elements/Hero.js",
+        "src/elements/Items.js",
+        "src/elements/Obstacle.js",
+
+        "src/logic/FoodManager.js",
+        "src/logic/ObstacleManager.js",
+
+        "src/Scene/MenuScene.js",
+        "src/Scene/AboutScene.js",
+        "src/Scene/GameScene.js",
+
+        "src/Ui/GameSceneUI.js",
+        "src/Ui/GameOverUI.js",
+        "src/Ui/SoundButton.js"
+    ]
+}
